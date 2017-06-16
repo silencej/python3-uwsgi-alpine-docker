@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3.6
 MAINTAINER silencej owen263@gmail.com
 
 RUN apk add --no-cache uwsgi-python3 py3-psycopg2
